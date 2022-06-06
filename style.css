@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    background: linear-gradient(to bottom, #4b79a1, #283e51);;
+    height: 150vh;
+    width: 100%;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    /* margin-left: 70px; */
+    background-color: #333333;
+    height: 100vh;
+    width: 85vw;
+    padding: 12px;
+    display: flex;
+    border-radius: 20px;
+}
+
+.card b {
+padding: 8px;
+margin-top: 1cm;
+}
+
+.celulavazia {
+    background-color: #333333;
+    height: 30px;
+    width: 30px;
+    border-radius: 6px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+}
+
+.celulacheia {
+
+    background-color: rgb(255, 255, 255);
+    height: 30px;
+    width: 30px;
+    border-radius: 6px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    background: #e0e0e0;
+    box-shadow: inset 20px 20px 17px #cccccc,
+        inset -20px -20px 17px #f4f4f4;
+}
+
+
+.painel {
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    height: 80%;
+    width: 40%;
+    margin-left: 100px;
+    margin-top: 50px;
+    border-radius: 36px;
+    background: #e0e0e0;
+    box-shadow: inset 20px 20px 17px #cccccc,
+        inset -20px -20px 17px #f4f4f4;
+}
+
+
+h2 {
+    font-weight: bold;
+    font-size: 2rem;
+  }
+  p {
+    font-family: 'Reenie Beanie';
+    font-size: 1rem;
+  }
+  ul,li{
+    list-style:none;
+  }
+  ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  ul li a{
+    text-decoration:none;
+    color:#212121;
+    background:#cfc;
+    display:block;
+    height:10em;
+    width:10em;
+    padding:1em;
+    box-shadow: 5px 5px 7px rgba(33, 33, 33, 0.463);
+    transform: rotate(-6deg);
+    transition: transform .15s linear;
+  }
+
+  input {
+      margin-top: 70px;
+      width: 70%;
+      height: 30px;
+      background-color: transparent;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      border-bottom: solid #999 2px;
+      outline-style: none;
+      border-radius: 1px;
+  }
+
+  button {
+      
+      margin-top: 15vh;
+      width: 30%;
+      height: 20px;
+      background-color: transparent;
+      border: solid #999 1px;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+    #botao1, #botao2, #botao3, #botao4, #botao5, #botao6, #botao7, #botao8, #botao9, #botao10, #botao11, #botao12, #botao13, #botao14, #botao15 { 
+      display: none;
+      margin: auto;
+  
+  }
+  .venceu {
+  
+  }

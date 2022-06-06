@@ -1,0 +1,148 @@
+body {
+    
+    margin: 0;
+}
+
+.conteiner {
+    margin-top: -10vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to bottom, #4b79a1, #283e51);;
+    height: 90vh;
+   
+
+}
+
+.conteiner h1 {
+    font-size: 10vh;
+    display: flex;
+    justify-content: center;
+    font-family: 'Reenie Beanie';
+
+}
+
+.card .titulo {
+
+    font-size: 6vh;
+    display: flex;
+    justify-content: center;
+    /* margin-left: 10vw; */
+}
+
+.pega-card {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50vw;
+    background-color: #333333;
+    height: 40vh;
+    padding: 2vh 2vw;
+    border: 1vh black solid;
+    border-radius: 5vh;
+    color: white;
+}
+
+.card .escrita {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 7vh;
+    color: white;
+}
+
+.escrita p {
+    font-size: 4vh;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+}
+
+.barra {
+    height: 25vh;
+    width: 0.25vw;
+    background-color: black;
+}
+
+.nome,
+.email,
+.RA {
+    font-size: 3vh;
+}
+
+.start {
+    width: 30vw;
+    height: 40vh;
+    padding: 2vh 2vw;
+    background-color: #333333;
+    margin-left: 5vw;
+    border: 1vh black solid;
+    border-radius: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+.start p {
+    font-size: 6vh;
+    margin-top: -7.5vh;
+}
+
+.button {
+    border-radius: 1vh;
+    background-color: #0a0a0c;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 5vh;
+    padding: 3vh;
+    width: 20vw;
+    height: 13vh;
+    cursor: pointer;
+    margin: 1vh;
+}
+
+.button span {
+    position: relative;
+    transition: 0.5s;
+    color: white;
+}
+
+.button span:after {
+    content: "\00bb";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -5vh;
+    transition: 0.8s;
+}
+
+.button:hover span {
+    padding-right: 3vh;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.rodape{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+    font-size: 4vh;
+    
+}
